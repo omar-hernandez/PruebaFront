@@ -1,0 +1,47 @@
+<main class="container">
+    <div class="row my-5 d-flex justify-content-center">
+        <div class="col-8 text-center">
+            <h1 class="display-4">Membresías</h1>
+            <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque at ratione! Adipisci qui ea delectus totam officia vitae ducimus quasi, quas reiciendis voluptas nostrum impedit! Atque facilis natus expedita.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="card-deck">
+                <!-- Card 1 -->
+                <div class="card mb-4" style="min-width: 250px;">
+                    <div class="card-header">
+                        <h4 class="my-0 text-center">Gratis</h4>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1>$0 <span class="text-muted">/ mes</span></h1>
+                        <ul class="list-unstyled">
+                            <li>Asesoría jurídica de calidad en gran cantidad de temas.</li>
+                            <li>Acceso ilimitado.</li>
+                            <li>No requieres suscripción.</li>
+                            <li>Acceso al centro de ayuda</li>
+                        </ul>
+                        <button class="btn btn-outline-primary">Registrate Gratis</button>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="card mb-4" style="min-width:250px;">
+                    <div class="card-header">
+                        <h4 class="my-0 text-center">Profesional</h4>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1>$15 <span class="text-muted">/ mes</span></h1>
+                        <ul class="my-3 list-unstyled">
+                            <li>Asesoría jurídica de calidad en gran cantidad de temas.</li>
+                            <li>Atención personalizada.</li>
+                            <li>Automatización de contratos.</li>
+                            <li>Acceso al centro de ayuda</li>
+                        </ul>
+                        <a [routerLink]="['/pago']" class="btn btn-outline-primary">Empezar Ahora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

@@ -1,0 +1,19 @@
+<div class="pl-4 mt-3">
+    <div class="row w-100">
+        <div class="col">
+            <div class="card mb-3" *ngFor="let tema of nuevoTema">
+                <h5 class="card-header text-center">{{tema.tema}} | {{tema.rama}}</h5>
+                <div class="card-body">
+                    <h5 class="card-title">{{tema.titulo}}</h5>
+                    <p class="card-text">{{tema.resumen}}</p>
+                    <hr>
+                    <h5>Lo escencial</h5>
+                    <p class="card-text">{{tema.contenido}}</p>
+                    <hr>
+                    <h5>Breve explicación</h5>
+                    <p class="card-text">{{tema.explicacion}}</p>
+                    <a [routerLink]="['/temas']" class="btn btn-outline-primary">Regresar</a>
+                </div>
+            </div>
+        </div>
+    </div>
